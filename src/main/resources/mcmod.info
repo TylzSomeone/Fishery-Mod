@@ -1,14 +1,14 @@
 [
 {
-  "modid": "examplemod",
-  "name": "Example Mod",
-  "description": "Example placeholder mod.",
+  "modid": "fisherymod",
+  "name": "Fishery Mod",
+  "description": "Attempt to add more fish to the game.",
   "version": "${version}",
   "mcversion": "${mcversion}",
   "url": "",
   "updateUrl": "",
-  "authorList": ["ExampleDude"],
-  "credits": "The Forge and FML guys, for making this example",
+  "authorList": ["TylzSomeone"],
+  "credits": "Many people by the time I am done.",
   "logoFile": "",
   "screenshots": [],
   "dependencies": []
