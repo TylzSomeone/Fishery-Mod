@@ -14,7 +14,7 @@ import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 @Mod(modid = FisheryMod.MODID, version = FisheryMod.VERSION, name = FisheryMod.NAME) /*Specifies this is a mod for forge to load*/
 public class FisheryMod {
     public static final String MODID = "fisherymod";
-    public static final String VERSION = "0.0.1";
+    public static final String VERSION = "0.0.2";
     public static final String NAME = "Fishery Mod";
 
     @SidedProxy(clientSide = "com.tylzsomeone.fisherymod.proxy.ClientProxy", serverSide = "com.tylzsomeone.fisherymod.proxy.CommonProxy")
@@ -29,13 +29,13 @@ public class FisheryMod {
     public void preInit(FMLPreInitializationEvent event) {
         tabFishery = new CreativeTabFishery(CreativeTabs.getNextID(), "tab_fishery");
         proxy.preInit(event);
+        System.out.println("Something smells fishy...");
     }
 
     @EventHandler
     public void init(FMLInitializationEvent event)    {
-        // some example code
         proxy.init(event);
-        System.out.println("DIRT BLOCK >> "+Blocks.DIRT.getUnlocalizedName());
+        System.out.println("Must be the fish...");
     }
 
     @EventHandler
