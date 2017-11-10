@@ -1,6 +1,6 @@
 {
-  "parent": "item/generated", //generated, handheld
+  "parent": "item/generated",
   "textures": {
-    "all": "fisherymod:items/fishery_item"
+    "layer0": "fisherymod:items/fishery_item"
   }
 }
