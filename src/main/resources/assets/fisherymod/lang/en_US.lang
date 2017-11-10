@@ -2,3 +2,6 @@
 
 #Creative Tab
 itemGroup.tab_fishery=Fishery Mod
+
+#Items
+item.fishery_item.name=Fishery Item

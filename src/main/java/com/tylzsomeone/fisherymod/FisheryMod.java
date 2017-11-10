@@ -1,5 +1,6 @@
 package com.tylzsomeone.fisherymod;
 
+import com.tylzsomeone.fisherymod.item.ModItems;
 import com.tylzsomeone.fisherymod.proxy.CommonProxy;
 import com.tylzsomeone.fisherymod.tab.CreativeTabFishery;
 import net.minecraft.creativetab.CreativeTabs;
@@ -28,6 +29,7 @@ public class FisheryMod {
     @EventHandler
     public void preInit(FMLPreInitializationEvent event) {
         tabFishery = new CreativeTabFishery(CreativeTabs.getNextID(), "tab_fishery");
+        ModItems.preInit();
         proxy.preInit(event);
         System.out.println("Something smells fishy...");
     }
