@@ -4,7 +4,6 @@ import com.tylzsomeone.fisherymod.item.ModItems;
 import com.tylzsomeone.fisherymod.proxy.CommonProxy;
 import com.tylzsomeone.fisherymod.tab.CreativeTabFishery;
 import net.minecraft.creativetab.CreativeTabs;
-import net.minecraft.init.Blocks;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
 import net.minecraftforge.fml.common.SidedProxy;
